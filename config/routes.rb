@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  root "application#index"
+  get 'site/index'
+  root 'site#index'
 
-  get "/application", to: "application#index"
+  get '/application', to: 'application#index'
 end
