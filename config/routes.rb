@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root "application#index"
+  root "application#homepage"
 
-  get "/application", to: "application#index"
+  get "/application", to: "application#homepage"
 end
