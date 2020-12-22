@@ -1,0 +1,10 @@
+#home-video-wrapper{
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ display: flex;
+ justify-content: center;
+ object-fit: cover;
+ top: 0;
+ z-index: -2;
+}
