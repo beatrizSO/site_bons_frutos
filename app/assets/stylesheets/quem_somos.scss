@@ -1,0 +1,64 @@
+.spacing {
+    margin: 5px auto 60px;
+    background-color: #2da2ff;
+    width: 150px;
+    height: 3px;
+  }
+  
+  #services_section {
+    padding-top: 90px;
+    padding-bottom: 3vh;
+  
+    h1 {
+      font-family: ubuntu;
+      text-align: center;
+      color: #2da2ff;
+    } 
+  
+    .section-heading-spacer {
+      float: left;
+      width: 150px;
+      border-bottom: 3px solid rgba(84, 187, 254,0.7);
+      padding-top: 10px;
+  }
+  }
+  
+  #about_section {
+    padding-top: 90px;
+    padding-bottom: 3vh;
+    background: linear-gradient(rgba(253, 141, 75, 0.85), rgba(253, 141, 75, 0.85)), url('team.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 10%;
+    min-height: 45vh;
+    font-family: Ubuntu;
+  
+    .spacing {
+      background-color: white;
+    }
+  
+    h1 {
+      text-align: center;
+      color: white;
+    }
+  
+    p {
+      font-size: 5vw;
+      margin-left: 10%;
+      margin-right: 10%;
+      color: black;
+  
+      span {
+        color: #0a369f;
+      }
+    }
+  
+    // Tablet
+    @media screen and (min-width: 750px) {
+      p {
+        font-size: 1.5em;
+      }
+    }
+  }
+  
