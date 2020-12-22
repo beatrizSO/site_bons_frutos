@@ -1,80 +1,45 @@
-#navbar-1 {
-    background: #fff;
-  
-    .navbar-brand {
-      font-family: "Ubuntu", sans-serif;
-    }
-  
-    .nav-item{
-      height: 50px;
-      overflow: hidden;
-  
-      .nav-link {
-        padding: 10px 5px 0;
-      }
-  
-      .underline {
-        margin: 100px 5px 0;
-        background: #0a369f;
-        height: 2px;
-        width: available;
-        transition: all 0.5s;
-      }
-    }
-  
-    .nav-item:hover {
-      .nav-link {
-        color: #0a369f;
-      }
-  
-      .underline {
-        margin: 0 5px 0;
-      }
-    }
-  }
-  
-  #navbar-2 {
-    background: linear-gradient(rgb(29, 124, 250),rgb(120, 179, 255));
-    position: fixed;
-    width: 100%;
-    transition: 0.5s;
-    z-index: 99;
-    filter: grayscale(0.2);
+#navbar-2 {
+  background: linear-gradient(rgb(29, 124, 250),rgb(120, 179, 255));
+  position: fixed;
+  width: 100%;
+  transition: 0.5s;
+  z-index: 99;
+  filter: grayscale(0.2);
 
-    .navbar-brand {
-      font-family: "Ubuntu", sans-serif;
-      color: #fff;
-  
-      img {
-        margin: 0;
-      }
-    }
-  
-    .nav-item{
-      height: 50px;
-      overflow: hidden;
-  
-      .nav-link {
-        color: #fff;
-        padding: 10px 5px 0;
-      }
-  
-      .underline {
-        margin: 100px 5px 0;
-        background: #284a97;
-        height: 2px;
-        width: available;
-        transition: all 0.5s;
-      }
-    }
-  
-    .nav-item:hover {
-      .nav-link {
-        color: #0a369f;
-      }
-  
-      .underline {
-        margin: 0 5px 0;
-      }
+  .navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    color: #fff;
+
+    img {
+      margin: 0;
     }
   }
+
+  .nav-item{
+    height: 50px;
+    overflow: hidden;
+
+    .nav-link {
+      color: #fff;
+      padding: 10px 5px 0;
+    }
+
+    .underline {
+      margin: 100px 5px 0;
+      background: #284a97;
+      height: 2px;
+      width: available;
+      transition: all 0.5s;
+    }
+  }
+
+  .nav-item:hover {
+    .nav-link {
+      color: #0a369f;
+    }
+
+    .underline {
+      margin: 0 5px 0;
+    }
+  }
+}
