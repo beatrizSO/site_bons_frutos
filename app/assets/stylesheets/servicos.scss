@@ -1,0 +1,46 @@
+.spacing {
+    margin: 5px auto 60px;
+    background-color: #2da2ff;
+    width: 150px;
+    height: 3px;
+  }
+  
+  #servicos {
+    padding-top: 50px;
+    padding-bottom: 3vh;
+    background: linear-gradient(rgba(253, 141, 75, 0.85), rgba(253, 141, 75, 0.85)), url('team.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 10%;
+    min-height: 45vh;
+  
+    .spacing {
+      background-color: white;
+    }
+  
+    h1 {
+      text-align: center;
+      padding: 2%;
+      color: white;
+    }
+  
+    p {
+      font-size: 5vw;
+      margin-left: 10%;
+      margin-right: 10%;
+      color: black;
+      text-align: center;
+  
+      span {
+        color: #0a369f;
+      }
+    }
+  
+    // Tablet
+    @media screen and (min-width: 750px) {
+      p {
+        font-size: 1.5em;
+      }
+    }
+  }
