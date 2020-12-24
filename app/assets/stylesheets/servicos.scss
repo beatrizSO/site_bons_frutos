@@ -14,6 +14,7 @@
     background-attachment: fixed;
     background-position: center 10%;
     min-height: 45vh;
+    font-size: 25px;
     
     .spacing {
         background-color: white;
@@ -29,7 +30,7 @@
         color: #ededed;
         span::after{
             content: '\f107';
-  font-weight: 900; /* Fix version 5.0.9 */
+          font-weight: 900; /* Fix version 5.0.9 */
             font-family: 'Spartan', sans-serif;
 
         }
@@ -42,24 +43,5 @@
         transition: 0.3s;
       }
       
-        .effect_hover:hover {opacity: 1}
-
-    p {
-      font-size: 5vw;
-      margin-left: 43%;
-      margin-right: 43%;
-      color: black;
-      
-  
-      span {
-        color: #0a369f;
-      }
+      .effect_hover:hover {opacity: 1}      
     }
-  
-    // Tablet
-    @media screen and (min-width: 750px) {
-      p {
-        font-size: 1.5em;
-      }
-    }
-  }
