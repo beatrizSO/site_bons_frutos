@@ -1,0 +1,47 @@
+.spacing {
+    margin: 5px auto 60px;
+    background-color: #2da2ff;
+    width: 150px;
+    height: 3px;
+  }
+  
+  #servicos {
+    padding-top: 50px;
+    padding-bottom: 3vh;
+    background: #e4aed6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 10%;
+    min-height: 45vh;
+    font-size: 25px;
+    
+    .spacing {
+        background-color: white;
+    }
+    
+    h1 {
+      padding: 2%;
+      color: white;
+      text-align: center;
+    }
+  
+    span{
+        color: #ededed;
+        span::after{
+            content: '\f107';
+          font-weight: 900; /* Fix version 5.0.9 */
+            font-family: 'Spartan', sans-serif;
+
+        }
+    }
+    
+    .effect_hover {
+        border: none;
+        color: white;
+        opacity: 0.6;
+        transition: 0.3s;
+      }
+      
+      .effect_hover:hover {opacity: 1}      
+    }
