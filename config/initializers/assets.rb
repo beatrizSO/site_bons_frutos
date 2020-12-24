@@ -15,7 +15,7 @@ Rails.application.config.assets.precompile += %w( rocket.css rocket.js)
 # Rails.application.config.assets.precompile += %w( admin.js admin.css )
 
 Rails.application.config.assets.precompile += %w( navbar_index.js )
-Rails.application.config.assets.precompile += %w( achievements.js )
+Rails.application.config.assets.precompile += %w( VideoBonsFrutos.mp4 )
 Rails.application.config.assets.precompile += %w( card.js )
 Rails.application.config.assets.precompile += %w( Carousel.js )
 Rails.application.config.assets.precompile += %w( countUp.js )

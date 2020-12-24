@@ -1,0 +1,27 @@
+.container-fluid{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    padding-left: 0px !important;
+    padding-right: 0px;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px; 
+}
+
+video{
+    left: 50%;
+    min-height: 50%;
+    min-width: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 1020px) {
+
+    video{max-width: 100%;
+           height: auto; 
+          }
+}
