@@ -4,7 +4,7 @@
     height: 0;
     padding-left: 0px !important;
     padding-right: 0px;
-    overflow: hidden;
+    overflow: visible;
     max-width: 100%;
     height: auto; 
 }
@@ -20,7 +20,10 @@ video{
 
 @media screen and (max-width: 1020px) {
 
-    video{max-width: 100%;
-           height: auto; 
-          }
+    video{
+        max-width: 100%;
+        height: auto; 
+        padding-top: 30%;
+    }
+    
 }
