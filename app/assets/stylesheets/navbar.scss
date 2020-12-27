@@ -25,7 +25,7 @@
 
     .underline {
       margin: 100px 5px 0;
-      background: #9cd6f2;
+      background: #222;
       height: 2px;
       width: available;
       transition: all 0.5s;
@@ -34,7 +34,7 @@
 
   .nav-item:hover {
     .nav-link {
-      color: #9cd6f2;
+      color: #222;
     }
 
     .underline {
