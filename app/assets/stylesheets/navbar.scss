@@ -1,15 +1,14 @@
 #navbar-2 {
-  background: linear-gradient(rgb(29, 124, 250),rgb(120, 179, 255));
+  background: #ededed;
   position: fixed;
   width: 100%;
   transition: 0.5s;
   z-index: 99;
   filter: grayscale(0.2);
+  font-size: large;
 
   .navbar-brand {
-    font-family: "Ubuntu", sans-serif;
-    color: #fff;
-
+    color: #3d9770;
     img {
       margin: 0;
     }
@@ -20,13 +19,13 @@
     overflow: hidden;
 
     .nav-link {
-      color: #fff;
+      color: #3d9770;
       padding: 10px 5px 0;
     }
 
     .underline {
       margin: 100px 5px 0;
-      background: #284a97;
+      background: #9cd6f2;
       height: 2px;
       width: available;
       transition: all 0.5s;
@@ -35,7 +34,7 @@
 
   .nav-item:hover {
     .nav-link {
-      color: #0a369f;
+      color: #9cd6f2;
     }
 
     .underline {

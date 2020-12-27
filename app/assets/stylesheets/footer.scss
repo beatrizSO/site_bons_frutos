@@ -1,16 +1,15 @@
 #bons-frutos-footer {
     display: block;
     width: 100%;
-    background-color: rgba(#2da2ff, 3);
+    background-color: #ededed;
     filter: grayscale(70%);
     height: 50px;
     padding: 15px 0;
     line-height: calc(60px - 2 * 20px);
-    color: #fff;
+    color: #3d9770;
     text-align: center;
 
     .icone {
-        color: rgba(255, 255, 255, 0.6);
         filter: invert(0);
         width: 30px;
         height: 30px;

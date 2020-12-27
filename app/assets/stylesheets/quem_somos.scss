@@ -1,6 +1,5 @@
 .spacing {
     margin: 5px auto 60px;
-    background-color: #2da2ff;
     width: 150px;
     height: 3px;
   }
@@ -8,12 +7,14 @@
   #quem_somos {
     padding-top: 50px;
     padding-bottom: 3vh;
-    background: linear-gradient(rgba(253, 141, 75, 0.85), rgba(253, 141, 75, 0.85)), url('team.jpeg');
+    background-image: url("back_quem_somos.png");
+    background-color: #ededed;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center 10%;
     min-height: 45vh;
+
   
     .spacing {
       background-color: white;
@@ -25,15 +26,6 @@
       color: white;
     }
   
-    p {
-      font-size: 5vw;
-      margin-left: 10%;
-      margin-right: 10%;
-      color: black;
-  
-      span {
-        color: #0a369f;
-      }
     }
   
     // Tablet
@@ -42,5 +34,5 @@
         font-size: 1.5em;
       }
     }
-  }
+
   
