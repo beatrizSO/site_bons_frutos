@@ -1,0 +1,12 @@
+<section id="quem_somos">
+  
+    <h1>Quem Somos</h1>
+  
+    <div class="d-flex flex-column justify-content-center">
+      <p class="container">
+        O espaço Bons Frutos foi planejado com muito amor, visando oferecer a crianças, adolescentes, pais, familiares e cuidadores um lugar alegre, descontraído e confortável. Totalmente focado no acolhimento, no apoio, no respeito e na empatia. Nossos consultórios são aconchegantes e o atendimento é 100% personalizado, prezando por uma consulta atenciosa.
+        Contamos ainda com lindo espaço multimídia interligado à copa, reservado para cursos, palestras, grupos e workshops
+      </p>
+
+    </div>
+ </section>
