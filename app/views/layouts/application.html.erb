@@ -2,8 +2,25 @@
 <html>
   <head>
     <title>Bons Frutos</title>
+
+    <meta name="title" content="Espaço Bons Frutos">
+    <meta name="author" content="Espaço Bons Frutos, contato@bonsfrutos.com.br">
+    <meta name="description" content="O Espaço Bons Frutos - Atendimento infantil multidiciplinar.">
+    <meta name="subject" content="Espaço Bons Frutos">
+    <meta name="keywords" content="Espaço bons frutos, bons frutos, pediatria, consulta pediátrica, amamentação, conexão pais e filhos, fonoaudiologia, nutrição, psicologia, psicomotricidade, shantala, sono infantil, clínica pediátrica">
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="content-language" content="pt-br"/>
+
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+
+    <!-- for FF, Chrome, Opera -->
+    <link rel="icon" type="image/png" href="<%= image_url('arvore.png')%>" sizes="16x16">
+    <link rel="icon" type="image/png" href="<%= image_url('arvore.png')%>" sizes="32x32">
+
+    <!-- for IE -->
+    <link rel="icon" type="image/x-icon" href="<%= image_url('arvore.png')%>" >
+    <link rel="shortcut icon" type="image/x-icon" href="<%= image_url('arvore.png')%>"/>
     </head>
 
   <body>
