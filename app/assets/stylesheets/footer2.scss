@@ -1,0 +1,34 @@
+#bons-frutos-footer2 {
+    display: block;
+    width: 100%;
+    background-color: #ededed;
+    filter: grayscale(70%);
+    height: 50px;
+    padding: 15px 0;
+    line-height: calc(60px - 2 * 20px);
+    color: #3d9770;
+    text-align: center;
+    border-top: 2px solid #fff;
+    padding-top:10px;
+    position:absolute;
+   bottom:0;
+
+    .icone {
+        filter: invert(0);
+        width: 30px;
+        height: 30px;
+        transition: #000;
+    }
+    .media-icon i:hover {
+        opacity: 1;
+        color: #222;
+    }
+
+    a:hover,
+    a:focus,
+    a:active,
+    a:visited,
+    a:link {
+        text-decoration: none !important;
+    }
+}
