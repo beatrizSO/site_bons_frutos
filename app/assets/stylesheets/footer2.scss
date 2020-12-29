@@ -11,6 +11,7 @@
     border-top: 2px solid #fff;
     padding-top:10px;
     position:absolute;
+    bottom: 0;
 
     .icone {
         filter: invert(0);
@@ -30,4 +31,22 @@
     a:link {
         text-decoration: none !important;
     }
+}
+
+@media screen and (max-width: 1020px) {
+    #bons-frutos-footer2 {
+        display: block;
+        width: 100%;
+        background-color: #ededed;
+        filter: grayscale(70%);
+        height: 50px;
+        padding: 15px 0;
+        line-height: calc(60px - 2 * 20px);
+        color: #3d9770;
+        text-align: center;
+        border-top: 2px solid #fff;
+        padding-top:10px;
+        position:relative;
+        bottom: 0;
+ }
 }
