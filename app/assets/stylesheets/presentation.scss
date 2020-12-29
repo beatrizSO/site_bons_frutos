@@ -18,12 +18,22 @@ video{
     transform: translate(-50%, -50%);
 }
 
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1080px) {
 
     video{
         max-width: 100%;
         height: auto; 
         padding-top: 30%;
+    }
+    
+}
+
+@media screen and (max-width: 1440px) {
+
+    video{
+        max-width: 100%;
+        height: auto; 
+    
     }
     
 }
