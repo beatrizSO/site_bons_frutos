@@ -24,6 +24,7 @@ p {
 }
 
 .frame {
+    align-content: center;
     padding: 40px;
     background:#e4aed6;
     -moz-border-radius: 10px;
@@ -36,14 +37,6 @@ p {
 .bar{
     position: absolute;
     height: 10px;
-}
-
-iframe{
-    width: 90%;
-    height: 90%;
-    border: 0px;
-    filter: bluescale(100%);
-    background-color:rgba(0,0,255,0.3); /* blue with opacity */
 }
 
 .col-sm-6{
