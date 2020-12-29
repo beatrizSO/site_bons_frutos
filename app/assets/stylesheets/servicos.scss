@@ -1,9 +1,9 @@
 #servicos {
   padding-top: 50px;
   padding-bottom: 3vh;
-  background: url("back_servicos.png");
+  background: url("back_servicos2.png");
   background-color: #ededed;
-  background-size: cover;
+  background-size: 100% 90%;
   background-repeat: no-repeat;
   background-position: center 10%;
   min-height: 45vh;
@@ -15,7 +15,9 @@
     text-align: center;
   }
   
-  
+  .spacing{
+    padding-bottom: 5%;
+  }
   
   .effect_hover {
     border: none;
