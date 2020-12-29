@@ -11,6 +11,13 @@ p {
     padding-left: 5%;
 }
 
+.info-style{
+    border-radius: 30%; 
+    background-color:#e4aed6;
+    width: auto;
+    height: auto;
+}
+
 #primeiro{
     padding-top: 75px;
     background: center;
@@ -18,20 +25,10 @@ p {
 }
 
 .holder{
+    padding-left: 10%;
     height: 600px;
     width: 75%;
     position: relative;
-}
-
-.frame {
-    align-content: center;
-    padding: 40px;
-    background:#e4aed6;
-    -moz-border-radius: 10px;
-    border-radius: 20px;
-    overflow:hidden;
-    width: 100%;
-    height: 100%;
 }
 
 .bar{
@@ -59,5 +56,5 @@ p {
     height: 500px;
     width: 87%;
     position: relative;
-}
+    }
 }
