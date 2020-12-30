@@ -52,14 +52,23 @@
       }
     }
 
-    @media screen and (min-width: 1440px) {
+    @media screen and (min-width: 1280px) {
       #quem_somos {
         padding-top: 15%;
+        background-position: 50% 50%;
+      }
+    }
+
+    @media screen and (min-width: 1440px) {
+      #quem_somos {
+        padding-top: 10%;
+        background-position: 50% 50%;
       }
     }
 
     @media screen and (min-width: 1920px) {
       #quem_somos {
         padding-top: 5%;
+        background-position: 50% 50%;
       }
     }
