@@ -10,8 +10,8 @@
     text-align: center;
     border-top: 2px solid #fff;
     padding-top:10px;
-    position:absolute;
-    bottom: auto;
+    position: fixed;
+    bottom: 0;
 
     .icone {
         filter: invert(0);
