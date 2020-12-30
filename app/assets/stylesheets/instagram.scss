@@ -1,7 +1,11 @@
-.col-lg-2{
-    text-align: center;
-    margin-right: 1.5%;
-    margin-left: 1%;
+$grid-breakpoints: (
+  sm: 768px,
+  md: 992px,
+  lg: 1000px
+)!default ;
+
+.item{
+	text-align: center;
 }
 
 #instagram{
@@ -19,9 +23,3 @@ h1 {
     padding: 2%;
     color: #222;
 }
-
-$grid-breakpoints: (
-  sm: 768px,
-  md: 992px,
-  lg: 1000px
-)!default ;
